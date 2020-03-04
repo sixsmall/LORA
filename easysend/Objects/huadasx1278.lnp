@@ -1,0 +1,12 @@
+--cpu Cortex-M0+
+".\objects\system_hc32l110.o"
+".\objects\startup_hc32l110.o"
+".\objects\main.o"
+".\objects\clk.o"
+".\objects\ddl.o"
+".\objects\gpio.o"
+".\objects\interrupts_hc32l110.o"
+--strict --scatter ".\Objects\huadasx1278.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\huadasx1278.map" -o .\Objects\huadasx1278.axf

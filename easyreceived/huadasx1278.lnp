@@ -1,0 +1,22 @@
+--cpu Cortex-M0+
+".\system_hc32l110.o"
+".\startup_hc32l110.o"
+".\main.o"
+".\clk.o"
+".\ddl.o"
+".\gpio.o"
+".\interrupts_hc32l110.o"
+".\wdt.o"
+".\spi.o"
+".\lpt.o"
+".\bt.o"
+".\lpuart.o"
+".\lpm.o"
+".\key.o"
+".\sx1278.o"
+".\sx1278rxdelay.o"
+".\flash.o"
+--library_type=microlib --strict --scatter ".\huadasx1278.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\huadasx1278.map" -o .\huadasx1278.axf

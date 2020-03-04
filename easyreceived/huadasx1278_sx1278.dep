@@ -1,0 +1,332 @@
+Dependencies for Project 'huadasx1278', Target 'sx1278': (DO NOT MODIFY !)
+F (.\src\system_hc32l110.c)(0x5D427D9A)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\system_hc32l110.o --omf_browse .\system_hc32l110.crf --depend .\system_hc32l110.d)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\startup_hc32l110.s)(0x5D8C12DF)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2--pd "__UVISION_VERSION SETA 516"--list .\startup_hc32l110.lst --xref -o .\startup_hc32l110.o --depend .\startup_hc32l110.d)
+F (.\src\main.c)(0x5E5F0386)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (.\inc\includes.h)(0x5E5EFFA2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+I (.\inc\wdt.h)(0x5E03041E)
+I (.\inc\lpt.h)(0x5DF882D2)
+I (.\inc\bt.h)(0x5DA55D17)
+I (.\inc\lpm.h)(0x5AFA673C)
+I (.\inc\spi.h)(0x5D47DB1C)
+I (.\inc\lpuart.h)(0x5E02F371)
+I (.\inc\key.h)(0x5E5F0043)
+I (.\inc\sx1278rxdelay.h)(0x5E5F0043)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x5D5E0F0F)
+I (D:\keil\ARM\ARMCC\include\time.h)(0x5D5E0DCF)
+I (.\inc\sx1278.h)(0x5E0DA8B8)
+I (.\inc\flash.h)(0x5D847AAD)
+F (.\src\clk.c)(0x5D5BAC83)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\clk.o --omf_browse .\clk.crf --depend .\clk.d)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\ddl.c)(0x5D8B1456)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\ddl.o --omf_browse .\ddl.crf --depend .\ddl.d)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\gpio.c)(0x5D4273BE)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\interrupts_hc32l110.c)(0x5D81EC93)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\interrupts_hc32l110.o --omf_browse .\interrupts_hc32l110.crf --depend .\interrupts_hc32l110.d)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\wdt.c)(0x5E1E65CC)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\wdt.o --omf_browse .\wdt.crf --depend .\wdt.d)
+I (.\inc\wdt.h)(0x5E03041E)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+I (.\inc\lpuart.h)(0x5E02F371)
+F (.\src\spi.c)(0x5E094C12)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\spi.o --omf_browse .\spi.crf --depend .\spi.d)
+I (.\inc\spi.h)(0x5D47DB1C)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\lpt.c)(0x5E12848F)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\lpt.o --omf_browse .\lpt.crf --depend .\lpt.d)
+I (.\inc\lpt.h)(0x5DF882D2)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+I (.\inc\lpm.h)(0x5AFA673C)
+I (.\inc\wdt.h)(0x5E03041E)
+I (.\inc\sx1278rxdelay.h)(0x5E5F0043)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x5D5E0F0F)
+I (D:\keil\ARM\ARMCC\include\time.h)(0x5D5E0DCF)
+I (.\inc\sx1278.h)(0x5E0DA8B8)
+I (.\inc\spi.h)(0x5D47DB1C)
+I (.\inc\bt.h)(0x5DA55D17)
+I (.\inc\key.h)(0x5E5F0043)
+I (.\inc\lpuart.h)(0x5E02F371)
+I (.\inc\flash.h)(0x5D847AAD)
+F (.\src\bt.c)(0x5DC8D6F9)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\bt.o --omf_browse .\bt.crf --depend .\bt.d)
+I (.\inc\bt.h)(0x5DA55D17)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\lpuart.c)(0x5E0E9B1F)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\lpuart.o --omf_browse .\lpuart.crf --depend .\lpuart.d)
+I (.\inc\lpuart.h)(0x5E02F371)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+I (.\inc\lpm.h)(0x5AFA673C)
+I (.\inc\wdt.h)(0x5E03041E)
+I (.\inc\lpt.h)(0x5DF882D2)
+F (.\src\lpm.c)(0x5AF2BAD3)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\lpm.o --omf_browse .\lpm.crf --depend .\lpm.d)
+I (.\inc\lpm.h)(0x5AFA673C)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\key.c)(0x5E1D51A5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\key.o --omf_browse .\key.crf --depend .\key.d)
+I (.\inc\key.h)(0x5E5F0043)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (.\inc\sx1278rxdelay.h)(0x5E5F0043)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x5D5E0F0F)
+I (D:\keil\ARM\ARMCC\include\time.h)(0x5D5E0DCF)
+I (.\inc\sx1278.h)(0x5E0DA8B8)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+I (.\inc\spi.h)(0x5D47DB1C)
+I (.\inc\lpt.h)(0x5DF882D2)
+I (.\inc\bt.h)(0x5DA55D17)
+I (.\inc\flash.h)(0x5D847AAD)
+I (.\inc\lpuart.h)(0x5E02F371)
+F (.\src\sx1278.c)(0x5E5E1EEC)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\sx1278.o --omf_browse .\sx1278.crf --depend .\sx1278.d)
+I (.\inc\sx1278.h)(0x5E0DA8B8)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+I (.\inc\spi.h)(0x5D47DB1C)
+F (.\src\sx1278rxdelay.c)(0x5E5EFF96)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\sx1278rxdelay.o --omf_browse .\sx1278rxdelay.crf --depend .\sx1278rxdelay.d)
+I (.\inc\sx1278rxdelay.h)(0x5E5F0043)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x5D5E0F0F)
+I (D:\keil\ARM\ARMCC\include\time.h)(0x5D5E0DCF)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (.\inc\sx1278.h)(0x5E0DA8B8)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+I (.\inc\spi.h)(0x5D47DB1C)
+I (.\inc\lpt.h)(0x5DF882D2)
+I (.\inc\bt.h)(0x5DA55D17)
+I (.\inc\key.h)(0x5E5F0043)
+I (.\inc\lpuart.h)(0x5E02F371)
+I (.\inc\flash.h)(0x5D847AAD)
+I (.\inc\wdt.h)(0x5E03041E)
+F (.\src\flash.c)(0x5E1E87C5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\inc -I.\src -ID:\keil\ARM\ARMCC\include -ID:\keil\ARM\Pack\ARM -ID:\keil\ARM\ARMCC_505u2\include-I "E:\for github\loraeasy\easyreceived\RTE"-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2\Device\Include-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\HDSC\HC32L110\1.0.2-D__UVISION_VERSION="516" -D__DEBUG_FLASH-o .\flash.o --omf_browse .\flash.crf --depend .\flash.d)
+I (.\inc\flash.h)(0x5D847AAD)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D326F3F)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x55AEF5F2)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5D2E7148)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5D81ECCE)
+I (.\inc\ddl_device.h)(0x5D1EE205)

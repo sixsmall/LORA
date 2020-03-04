@@ -1,0 +1,88 @@
+Dependencies for Project 'huadasx1278', Target 'sx1278': (DO NOT MODIFY !)
+F (.\src\system_hc32l110.c)(0x5BA351E6)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I.\src -I.\inc-I E:\workfile\huadasx1278\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DARMCM0P-o .\objects\system_hc32l110.o --omf_browse .\objects\system_hc32l110.crf --depend .\objects\system_hc32l110.d)
+I (.\inc\base_types.h)(0x5D1EE061)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\clk.h)(0x5AFA673B)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5B9A3D68)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\startup_hc32l110.s)(0x5D1EE380)(--cpu Cortex-M0+ --li -g --apcs=interwork -I E:\workfile\huadasx1278\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "ARMCM0P SETA 1"--list .\listings\startup_hc32l110.lst --xref -o .\objects\startup_hc32l110.o --depend .\objects\startup_hc32l110.d)
+F (.\src\main.c)(0x5D1EDEF3)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I.\src -I.\inc-I E:\workfile\huadasx1278\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DARMCM0P-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\src\clk.c)(0x5AF96FAD)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I.\src -I.\inc-I E:\workfile\huadasx1278\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DARMCM0P-o .\objects\clk.o --omf_browse .\objects\clk.crf --depend .\objects\clk.d)
+I (.\inc\clk.h)(0x5AFA673B)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D1EE061)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\gpio.h)(0x5B9A3D68)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\ddl.c)(0x5B99CCF0)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I.\src -I.\inc-I E:\workfile\huadasx1278\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DARMCM0P-o .\objects\ddl.o --omf_browse .\objects\ddl.crf --depend .\objects\ddl.d)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D1EE061)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5AFA673B)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5B9A3D68)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\gpio.c)(0x5AF2BAD3)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I.\src -I.\inc-I E:\workfile\huadasx1278\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DARMCM0P-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (.\inc\gpio.h)(0x5B9A3D68)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D1EE061)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5AFA673B)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\ddl_device.h)(0x5D1EE205)
+F (.\src\interrupts_hc32l110.c)(0x5AF2BAD3)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I.\src -I.\inc-I E:\workfile\huadasx1278\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DARMCM0P-o .\objects\interrupts_hc32l110.o --omf_browse .\objects\interrupts_hc32l110.crf --depend .\objects\interrupts_hc32l110.d)
+I (.\inc\ddl.h)(0x5AFA5F07)
+I (.\inc\base_types.h)(0x5D1EE061)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\inc\hc32l110.h)(0x5D1EE0CF)
+I (.\inc\core_cm0plus.h)(0x5D1EE112)
+I (.\inc\core_cmInstr.h)(0x5D1EE13B)
+I (.\inc\core_cmFunc.h)(0x5D1EE15C)
+I (.\inc\system_hc32l110.h)(0x5D1EE1BF)
+I (.\inc\clk.h)(0x5AFA673B)
+I (.\inc\interrupts_hc32l110.h)(0x5AFA673C)
+I (.\inc\gpio.h)(0x5B9A3D68)
+I (.\inc\ddl_device.h)(0x5D1EE205)
